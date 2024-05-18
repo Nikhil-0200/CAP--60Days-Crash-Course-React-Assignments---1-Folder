@@ -10,9 +10,9 @@ function HighlightTaskList() {
         {tasks.map((task, index) => (
           <li
             key={index}
-            style={{ fontWeight: task === "Urgent Task" ? "bold" : "normal" }}
+            style={{fontWeight: task === "Urgent Task" ? "bold" : "normal"}}
           >
-            {/* complete the missing code */}
+            {task}
           </li>
         ))}
       </ul>

@@ -38,26 +38,26 @@ function App() {
       <Welcome />
       <ConditionalMessage1 isLoggedIn={true} />
       <LoginMessage isLoggedIn={true} />
-      {/* <ItemList1 /> */}
-      {/* <FruitList /> */}
-      {/* <ButtonClick1 /> */}
-      {/* <ToggleButton /> */}
-      {/* <Welcome1 name="Bruce Wayne" /> */}
-      {/* <Greeting message="I am Batman" /> */}
-      {/* <UserCard1 {...user1} /> */}
-      {/* <ProfileCard {...user2} /> */}
-      {/* <Card1>
+      <ItemList1 />
+      <FruitList />
+      <ButtonClick1 />
+      <ToggleButton />
+      <Welcome1 name="Bruce Wayne" />
+      <Greeting message="I am Batman" />
+      <UserCard1 {...user1} />
+      <ProfileCard {...user2} />
+      <Card1>
         <ComponentWrappedWithinCard1Component />
-      </Card1> */}
-      {/* <Container>
+      </Card1>
+      <Container>
         <ComponentWrapperWithinContainerComponent />
-      </Container> */}
-      {/* <UserList1 /> */}
-      {/* <ProductList /> */}
-      {/* <HighlightList1 /> */}
-      {/* <HighlightTaskList /> */}
-      {/* <NestedList1 /> */}
-      {/* <NestedTaskList /> */}
+      </Container>
+      <UserList1 />
+      <ProductList />
+      <HighlightList1 />
+      <HighlightTaskList />
+      <NestedList1 />
+      <NestedTaskList />
     </>
   );
 }
